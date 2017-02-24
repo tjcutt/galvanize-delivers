@@ -1,0 +1,170 @@
+/* Large Heading Section with background and nav bar */
+
+.welcomeSection {
+    background: url(img/welcome.jpg);
+    background-size: cover;
+    margin: 0;
+    height: 400px;
+}
+
+
+/*Div surrounding nav-bar*/
+
+.navbar-fixed {
+    opacity: 0.8;
+}
+
+
+/* navbar */
+
+nav {
+    height: 50px;
+}
+
+
+/*Galvanize deliver logo and most text*/
+
+.logo, .logo-link {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    font-weight: 600;
+    font-size: 32px;
+    font-family: 'Nothing You Could Do', cursive;
+    z-index: 1;
+}
+
+
+/*Hamburger button*/
+
+.button-collapse {
+    margin-left: 5px;
+    color: black;
+}
+
+
+/*Order button hover effects*/
+
+.link:hover, .button-collapse {
+    color: rgb(54, 90, 82);
+    font-weight: 300;
+}
+
+
+/*Header section enclosing title and button*/
+
+header {
+    justify-content: center;
+    margin-top: 80px;
+    /*flex-direction: column;*/
+    height: 200px;
+}
+
+
+/*Large main button*/
+
+.mainBtn {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    text-transform: none;
+    text-align: center;
+    opacity: 0.5;
+    color: black;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 32px;
+}
+
+
+/*Main button hover effect*/
+
+.mainBtn:hover {
+    color: white;
+}
+
+
+/*Large main title within header*/
+
+.mainTitle {
+    font-family: 'Nothing You Could Do', cursive;
+    color: rgb(243, 246, 245);
+    font-weight: 800;
+    text-shadow: 3px 3px rgb(21, 13, 14);
+    box-shadow: size: 54px;
+}
+
+
+/*Cards containing  information*/
+
+.card {
+    border: 1px solid grey;
+}
+
+.order{
+  margin-left:1px;
+  margin-right: 1px;
+}
+
+/*Add item component of cards*/
+
+.addItem {
+    text-transform: none;
+    font-size: 20px;
+}
+
+
+/*Table*/
+
+.table {
+    font-size: 16px;
+}
+
+
+/*Order button*/
+
+#placeOrder {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    text-transform: none;
+    text-align: center;
+    color: black;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 32px;
+}
+
+#placeOrder:hover {
+    color: white;
+    background-color: teal;
+}
+
+
+/*Footer*/
+
+footer {
+  margin-bottom:0;
+    /*width: 100%;*/
+    height: 100px;
+    margin: 0;
+}
+
+.foot {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/*Copyright*/
+
+.footer-copyright {
+  margin-bottom: 0;
+  padding:0;
+    color: white;
+}
+
+body {
+  margin: 0;
+}
